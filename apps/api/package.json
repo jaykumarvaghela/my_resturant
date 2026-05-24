@@ -1,0 +1,38 @@
+{
+  "name": "@restaurant/api",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@restaurant/shared-types": "workspace:*",
+    "@restaurant/shared-utils": "workspace:*",
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.30.0",
+    "express": "^4.19.0",
+    "express-rate-limit": "^7.3.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.0",
+    "pino": "^9.0.0",
+    "resend": "^3.2.0",
+    "socket.io": "^4.7.0",
+    "stripe": "^15.7.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.9.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}

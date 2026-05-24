@@ -1,0 +1,17 @@
+name: AI Prompt Evals
+on:
+  push:
+    paths:
+      - "**/prompts/**"
+      - "**/*.md"
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Claude prompt evaluations
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "TODO: Run prompt eval suite on changed .md prompt files"
+          # pnpm run eval:prompts

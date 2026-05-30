@@ -1,0 +1,64 @@
+id,code,name,description,discount_type,discount_value,min_order_amount,max_discount_amount,usage_limit,usage_count,is_active,starts_at,expires_at,created_at
+1,WELCOME20,New User 20% Off,New User 20% Off promotion,percentage,20,0,10,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+2,WEEKEND10,Weekend 10% Off,Weekend 10% Off promotion,percentage,10,15,8,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+3,LUNCH15,Lunch Rush 15% Off,Lunch Rush 15% Off promotion,percentage,15,12,6,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+4,FREEDELIVERY,Free Delivery,Free Delivery promotion,fixed,3.99,20,3.99,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+5,COMBO5OFF,Combo 5 Off,Combo 5 Off promotion,fixed,5,25,5,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+6,LOYALTY10,Loyalty Member 10% Off,Loyalty Member 10% Off promotion,percentage,10,20,12,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+7,REFER15,Referral 15% Off,Referral 15% Off promotion,percentage,15,0,12,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+8,APP20,App-Exclusive 20% Off,App-Exclusive 20% Off promotion,percentage,20,10,15,,0,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+9,SUMMER2023,Summer Special 2023,Summer Special 2023 promotion,percentage,20,10,15,1000,264,True,2023-06-01 00:00:00,2023-08-30 00:00:00,2023-05-29 00:00:00
+10,HOLIDAY2023,Holiday Special 2023,Holiday Special 2023 promotion,percentage,10,10,15,1000,431,True,2023-11-01 00:00:00,2023-12-30 00:00:00,2023-10-29 00:00:00
+11,SPRING2023,Spring Special 2023,Spring Special 2023 promotion,percentage,10,10,15,1000,378,True,2023-03-01 00:00:00,2023-05-30 00:00:00,2023-02-26 00:00:00
+12,SUMMER2024,Summer Special 2024,Summer Special 2024 promotion,percentage,10,10,15,1000,254,True,2024-06-01 00:00:00,2024-08-30 00:00:00,2024-05-29 00:00:00
+13,HOLIDAY2024,Holiday Special 2024,Holiday Special 2024 promotion,percentage,20,10,15,1000,708,True,2024-11-01 00:00:00,2024-12-30 00:00:00,2024-10-29 00:00:00
+14,SPRING2024,Spring Special 2024,Spring Special 2024 promotion,percentage,10,10,15,1000,754,True,2024-03-01 00:00:00,2024-05-30 00:00:00,2024-02-27 00:00:00
+15,SUMMER2025,Summer Special 2025,Summer Special 2025 promotion,percentage,15,10,15,1000,182,True,2025-06-01 00:00:00,2025-08-30 00:00:00,2025-05-29 00:00:00
+16,HOLIDAY2025,Holiday Special 2025,Holiday Special 2025 promotion,percentage,10,10,15,1000,245,True,2025-11-01 00:00:00,2025-12-30 00:00:00,2025-10-29 00:00:00
+17,SPRING2025,Spring Special 2025,Spring Special 2025 promotion,percentage,10,10,15,1000,388,True,2025-03-01 00:00:00,2025-05-30 00:00:00,2025-02-26 00:00:00
+18,FLASH202306,Flash Sale Jun 2023,Flash Sale Jun 2023 promotion,percentage,30,15,15,500,358,False,2023-06-06 00:00:00,2023-06-08 00:00:00,2023-06-03 00:00:00
+19,FLASH202307,Flash Sale Jul 2023,Flash Sale Jul 2023 promotion,percentage,30,15,15,500,151,False,2023-07-01 00:00:00,2023-07-03 00:00:00,2023-06-28 00:00:00
+20,FLASH202308,Flash Sale Aug 2023,Flash Sale Aug 2023 promotion,percentage,30,15,15,500,409,False,2023-08-06 00:00:00,2023-08-08 00:00:00,2023-08-03 00:00:00
+21,FLASH202309,Flash Sale Sep 2023,Flash Sale Sep 2023 promotion,percentage,25,15,15,500,162,False,2023-09-08 00:00:00,2023-09-10 00:00:00,2023-09-05 00:00:00
+22,FLASH202310,Flash Sale Oct 2023,Flash Sale Oct 2023 promotion,percentage,30,15,15,500,192,False,2023-10-10 00:00:00,2023-10-12 00:00:00,2023-10-07 00:00:00
+23,FLASH202311,Flash Sale Nov 2023,Flash Sale Nov 2023 promotion,percentage,20,15,15,500,438,False,2023-11-16 00:00:00,2023-11-18 00:00:00,2023-11-13 00:00:00
+24,FLASH202312,Flash Sale Dec 2023,Flash Sale Dec 2023 promotion,percentage,20,15,15,500,407,False,2023-12-23 00:00:00,2023-12-25 00:00:00,2023-12-20 00:00:00
+25,FLASH202401,Flash Sale Jan 2024,Flash Sale Jan 2024 promotion,percentage,25,15,15,500,192,False,2024-01-23 00:00:00,2024-01-25 00:00:00,2024-01-20 00:00:00
+26,FLASH202402,Flash Sale Feb 2024,Flash Sale Feb 2024 promotion,percentage,20,15,15,500,440,False,2024-02-19 00:00:00,2024-02-21 00:00:00,2024-02-16 00:00:00
+27,FLASH202403,Flash Sale Mar 2024,Flash Sale Mar 2024 promotion,percentage,20,15,15,500,97,False,2024-03-20 00:00:00,2024-03-22 00:00:00,2024-03-17 00:00:00
+28,FLASH202404,Flash Sale Apr 2024,Flash Sale Apr 2024 promotion,percentage,20,15,15,500,233,False,2024-04-20 00:00:00,2024-04-22 00:00:00,2024-04-17 00:00:00
+29,FLASH202405,Flash Sale May 2024,Flash Sale May 2024 promotion,percentage,25,15,15,500,359,False,2024-05-28 00:00:00,2024-05-30 00:00:00,2024-05-25 00:00:00
+30,FLASH202406,Flash Sale Jun 2024,Flash Sale Jun 2024 promotion,percentage,20,15,15,500,423,False,2024-06-26 00:00:00,2024-06-28 00:00:00,2024-06-23 00:00:00
+31,FLASH202407,Flash Sale Jul 2024,Flash Sale Jul 2024 promotion,percentage,30,15,15,500,113,False,2024-07-28 00:00:00,2024-07-30 00:00:00,2024-07-25 00:00:00
+32,FLASH202408,Flash Sale Aug 2024,Flash Sale Aug 2024 promotion,percentage,20,15,15,500,332,False,2024-08-28 00:00:00,2024-08-30 00:00:00,2024-08-25 00:00:00
+33,FLASH202409,Flash Sale Sep 2024,Flash Sale Sep 2024 promotion,percentage,30,15,15,500,366,False,2024-09-26 00:00:00,2024-09-28 00:00:00,2024-09-23 00:00:00
+34,FLASH202411,Flash Sale Nov 2024,Flash Sale Nov 2024 promotion,percentage,25,15,15,500,345,False,2024-11-03 00:00:00,2024-11-05 00:00:00,2024-10-31 00:00:00
+35,FLASH202412,Flash Sale Dec 2024,Flash Sale Dec 2024 promotion,percentage,30,15,15,500,85,False,2024-12-01 00:00:00,2024-12-03 00:00:00,2024-11-28 00:00:00
+36,FLASH202412,Flash Sale Dec 2024,Flash Sale Dec 2024 promotion,percentage,30,15,15,500,166,False,2024-12-26 00:00:00,2024-12-28 00:00:00,2024-12-23 00:00:00
+37,FLASH202502,Flash Sale Feb 2025,Flash Sale Feb 2025 promotion,percentage,25,15,15,500,90,False,2025-02-01 00:00:00,2025-02-03 00:00:00,2025-01-29 00:00:00
+38,FLASH202503,Flash Sale Mar 2025,Flash Sale Mar 2025 promotion,percentage,20,15,15,500,101,False,2025-03-11 00:00:00,2025-03-13 00:00:00,2025-03-08 00:00:00
+39,FLASH202504,Flash Sale Apr 2025,Flash Sale Apr 2025 promotion,percentage,25,15,15,500,282,False,2025-04-11 00:00:00,2025-04-13 00:00:00,2025-04-08 00:00:00
+40,FLASH202505,Flash Sale May 2025,Flash Sale May 2025 promotion,percentage,25,15,15,500,133,False,2025-05-16 00:00:00,2025-05-18 00:00:00,2025-05-13 00:00:00
+41,FLASH202506,Flash Sale Jun 2025,Flash Sale Jun 2025 promotion,percentage,25,15,15,500,157,False,2025-06-15 00:00:00,2025-06-17 00:00:00,2025-06-12 00:00:00
+42,FLASH202507,Flash Sale Jul 2025,Flash Sale Jul 2025 promotion,percentage,25,15,15,500,409,False,2025-07-20 00:00:00,2025-07-22 00:00:00,2025-07-17 00:00:00
+43,FLASH202508,Flash Sale Aug 2025,Flash Sale Aug 2025 promotion,percentage,30,15,15,500,86,False,2025-08-24 00:00:00,2025-08-26 00:00:00,2025-08-21 00:00:00
+44,FLASH202509,Flash Sale Sep 2025,Flash Sale Sep 2025 promotion,percentage,30,15,15,500,137,False,2025-09-27 00:00:00,2025-09-29 00:00:00,2025-09-24 00:00:00
+45,FLASH202510,Flash Sale Oct 2025,Flash Sale Oct 2025 promotion,percentage,30,15,15,500,175,False,2025-10-30 00:00:00,2025-11-01 00:00:00,2025-10-27 00:00:00
+46,FLASH202511,Flash Sale Nov 2025,Flash Sale Nov 2025 promotion,percentage,25,15,15,500,244,False,2025-11-26 00:00:00,2025-11-28 00:00:00,2025-11-23 00:00:00
+47,FLASH202512,Flash Sale Dec 2025,Flash Sale Dec 2025 promotion,percentage,30,15,15,500,402,False,2025-12-25 00:00:00,2025-12-27 00:00:00,2025-12-22 00:00:00
+48,FLASH202601,Flash Sale Jan 2026,Flash Sale Jan 2026 promotion,percentage,20,15,15,500,400,False,2026-01-27 00:00:00,2026-01-29 00:00:00,2026-01-24 00:00:00
+49,FLASH202602,Flash Sale Feb 2026,Flash Sale Feb 2026 promotion,percentage,20,15,15,500,167,False,2026-02-26 00:00:00,2026-02-28 00:00:00,2026-02-23 00:00:00
+50,FLASH202604,Flash Sale Apr 2026,Flash Sale Apr 2026 promotion,percentage,20,15,15,500,462,False,2026-04-05 00:00:00,2026-04-07 00:00:00,2026-04-02 00:00:00
+51,FLASH202605,Flash Sale May 2026,Flash Sale May 2026 promotion,percentage,25,15,15,500,187,False,2026-05-05 00:00:00,2026-05-07 00:00:00,2026-05-02 00:00:00
+52,BDAY01,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,59,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+53,BDAY02,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,150,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+54,BDAY03,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,188,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+55,BDAY04,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,85,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+56,BDAY05,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,59,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+57,BDAY06,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,172,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+58,BDAY07,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,132,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+59,BDAY08,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,106,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+60,BDAY09,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,169,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+61,BDAY10,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,122,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+62,BDAY11,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,41,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
+63,BDAY12,Birthday Special,Birthday Special promotion,fixed,4.99,10,4.99,,72,True,2023-05-30 00:00:00,2028-05-28 23:59:59,2023-05-27 00:00:00
